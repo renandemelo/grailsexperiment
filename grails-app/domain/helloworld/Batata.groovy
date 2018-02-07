@@ -2,6 +2,6 @@ package helloworld
 
 class Batata {
 
-    static constraints = {
-    }
+    String color;
+
 }

@@ -8,4 +8,7 @@ class BatataService {
     def listAll() {
         Batata.findAll()
     }
+    def save(def b){
+        b.save()
+    }
 }

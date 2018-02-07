@@ -12,7 +12,7 @@ class BatataController {
 
     def save(){
         def b = new Batata(color: params['color'])
-        b.save()
+        batataService.save(b)
         redirect action: "list"
     }
 }
